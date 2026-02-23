@@ -9,8 +9,8 @@ const cartSchema = new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:"Product"
     }],
-    total:Number,
-    number_of_items:Number
+    // total:Number,
+    // number_of_items:Number
 
 },{timestamps:true})
 
